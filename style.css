@@ -1,5 +1,5 @@
 * {
-    border: rgb(37, 150, 131) solid 1px;
+    border: rgb(5, 5, 5) solid 1px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: rgb(171, 246, 248);
+    background-color: rgb(161, 215, 218);
     height: 98%;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,11 @@ body {
 #cars {
     height: 100%;
     display: flex;
+}
+
+article {
+    padding: 1rem;
+    margin: 3rem;
 }
 
 #sedan {
@@ -35,6 +40,7 @@ body {
 .attribution { 
     font-size: 11px;
     text-align: center; 
+    color: black !important;
 }
 
 .attribution a { 
