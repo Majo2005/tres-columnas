@@ -1,10 +1,12 @@
 * {
     border: rgb(5, 5, 5) solid 1px;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 html {
     height: 100%;
+    font-size: 15px;
 }
 
 body {
@@ -15,6 +17,11 @@ body {
     justify-content: space-between;
 }
 
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+}
+
 #cars {
     height: 100%;
     display: flex;
@@ -22,11 +29,13 @@ body {
 
 article {
     padding: 1rem;
-    margin: 3rem;
+    margin: 4rem 0rem;
 }
 
 #sedan {
     background-color: hsl(31, 77%, 52%);
+    margin-left: 4rem;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #suvs {
@@ -35,6 +44,19 @@ article {
 
 #luxury {
     background-color: hsl(179, 100%, 13%);
+    margin-right: 4rem;
+    border-radius: 0px 10px 10px 0px;
+}
+
+input[type="button"]{
+    padding: 1rem;
+    color: black;
+    cursor: pointer;
+    border-radius:30px;
+}
+
+input[type="button"]:hover{
+    background-color: inherit !important;
 }
 
 .attribution { 
