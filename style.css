@@ -26,20 +26,24 @@ h2{
     font-size: 3rem;
 }
 
+p{
+    padding-bottom: 5rem;
+}
+
 #cars {
     height: 100%;
     display: flex;
 }
 
 article {
-    padding: 1rem;
+    padding: 3rem;
     margin: 4rem 0rem;
 }
 
 #sedan {
     background-color: hsl(31, 77%, 52%);
     color: hsl(31, 77%, 52%);
-    margin-left: 4rem;
+    margin-left: 15rem;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -51,7 +55,7 @@ article {
 #luxury {
     background-color: hsl(179, 100%, 13%);
     color: hsl(179, 100%, 13%);
-    margin-right: 4rem;
+    margin-right: 15rem;
     border-radius: 0px 10px 10px 0px;
 }
 
